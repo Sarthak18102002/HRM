@@ -6,7 +6,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 @Entity
-@Table(name = "userdata")
+@Table(name = "users")
 public class User {
 
     @Id
@@ -27,7 +27,7 @@ public class User {
 
     private boolean emailVerified = false;
 
-    // Profile fields
+ 
     private String technology;
     private String age;
     private String bloodGroup;
@@ -52,5 +52,4 @@ public class User {
     public String getEducation() { return education; }
     public void setEducation(String education) { this.education = education; }
 
-    // Add other getters/setters as needed for email, password, etc.
 }

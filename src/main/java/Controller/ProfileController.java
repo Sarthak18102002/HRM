@@ -21,7 +21,7 @@ public class ProfileController {
     @PutMapping("/update/{id}")
     public ResponseEntity<ApiResponse<String>> addProfileFields(
             @PathVariable Long id,
-            @RequestBody(required = false) ProfileDTO profileDTO) { // accept empty body safely
+            @RequestBody(required = false) ProfileDTO profileDTO) { 
 
 
         if (profileDTO == null) {
