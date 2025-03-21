@@ -2,6 +2,9 @@
 /target/
 /build/
 
+# Ignore Git attributes file (if not needed)
+.gitattributes
+
 # IntelliJ IDEA
 /.idea/
 /*.iml
@@ -48,3 +51,10 @@ application-*.yml
 # Keep a generic application.properties file
 !application.properties
 !application.yml
+
+# Ignore Maven output
+/target/
+/.mvn/repository/
+
+# Ignore Maven Wrapper help file
+help.md
