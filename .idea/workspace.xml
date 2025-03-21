@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b696a2aa-a5bf-45c2-b188-e95bfbaf302c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/DTO/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/DTO/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Enum/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/FinalProjectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Repository/OtpRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Repository/UserRoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Service/OtpService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/Service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/UserEntity/Otp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/UserEntity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/UserEntity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/java/HRM/FinalProject/UserEntity/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject(Registration)/src/test/java/HRM/FinalProject/FinalProjectApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sarthak18102002&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sarthak18102002/HRM.git&quot;,
+    &quot;accountId&quot;: &quot;8734672e-8408-4413-b859-9371b3faaec6&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2u9xgH4ZKmglU4O16wIh4zsINgj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FinalProjectApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "registration",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="FinalProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HRM.FinalProject.FinalProjectApplication" />
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HRM.FinalProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FinalProjectApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b696a2aa-a5bf-45c2-b188-e95bfbaf302c" name="Changes" comment="" />
+      <created>1741674703185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741674703185</updated>
+    </task>
+    <servers />
+  </component>
+</project>
