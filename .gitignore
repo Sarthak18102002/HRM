@@ -14,11 +14,15 @@
 /.project
 /.settings/
 
+# VS Code
+/.vscode/
+
 # Logs and temp files
 /logs/
 /*.log
 /tmp/
 /hs_err_pid*
+*.pid
 
 # OS-specific
 .DS_Store
@@ -35,7 +39,7 @@ Thumbs.db
 .env
 *.env
 
-# Spring Boot-specific
+# Spring Boot-specific files
 /*.jar
 /*.war
 
@@ -58,3 +62,97 @@ application-*.yml
 
 # Ignore Maven Wrapper help file
 help.md
+
+# Ignore Node.js files (if frontend uses Node modules)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore Docker-related files (if using Docker)
+.dockerignore
+docker-compose.yml
+Dockerfile
+
+# Ignore IDE-specific and OS temp files
+*.swp
+*.swo
+*.bak
+# Ignore target and build directories
+/target/
+/build/
+
+# Ignore Git attributes file (if not needed)
+.gitattributes
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# VS Code
+/.vscode/
+
+# Logs and temp files
+/logs/
+/*.log
+/tmp/
+/hs_err_pid*
+*.pid
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Compiled Java files
+*.class
+
+# Dependencies
+/lib/
+/bin/
+
+# Sensitive environment files
+.env
+*.env
+
+# Spring Boot-specific files
+/*.jar
+/*.war
+
+# Database files
+*.h2.db
+*.mv.db
+*.sql
+
+# Ignore environment-specific property files
+application-*.properties
+application-*.yml
+
+# Keep a generic application.properties file
+!application.properties
+!application.yml
+
+# Ignore Maven output
+/target/
+/.mvn/repository/
+
+# Ignore Maven Wrapper help file
+help.md
+
+# Ignore Node.js files (if frontend uses Node modules)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore Docker-related files (if using Docker)
+.dockerignore
+docker-compose.yml
+Dockerfile
+
+# Ignore IDE-specific and OS temp files
+*.swp
+*.swo
+*.bak
