@@ -1,0 +1,50 @@
+# Ignore target and build directories
+/target/
+/build/
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# Logs and temp files
+/logs/
+/*.log
+/tmp/
+/hs_err_pid*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Compiled Java files
+*.class
+
+# Dependencies
+/lib/
+/bin/
+
+# Sensitive environment files
+.env
+*.env
+
+# Spring Boot-specific
+/*.jar
+/*.war
+
+# Database files
+*.h2.db
+*.mv.db
+*.sql
+
+# Ignore environment-specific property files
+application-*.properties
+application-*.yml
+
+# Keep a generic application.properties file
+!application.properties
+!application.yml
