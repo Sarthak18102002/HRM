@@ -1,3 +1,12 @@
+
+package HRM.FinalProject.Repository;
+
+import HRM.FinalProject.UserEntity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
 package HRM.FinalProject.Repository
 import HRM.FinalProject.UserEntity.User;
 
@@ -12,6 +21,11 @@ import java.util.Optional;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+
+
+    List<User> findByEmailVerified(Boolean emailVerified);
+}
+
     Optional<User> findByEmail(String email);
     Optional<User> findByUsername(String username);
 
@@ -19,5 +33,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
 }
     Optional<User> findBymobileNo(String mobileNo);
 }
+
 
 
